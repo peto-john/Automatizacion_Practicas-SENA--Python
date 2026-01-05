@@ -1,0 +1,1 @@
+(venv) C:\Bitacoras_Sena\proyecto> pyinstaller --onefile prueba.py # --> 	CONVIERTE EN EJECUTABLE DE WINDOWS ( PYTHON )
