@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(toll-tag-trip-security-iot-600nw-1023250240.webp);
+    background-size: cover; /* La imagen cubre todo el fondo */
+    /*background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+}
+
+.encabezado {
+    background-color: rgba(43, 44, 44, 0.904);
+    color: rgb(214, 208, 208);
+    margin-bottom: 15rem;
+    padding: 1rem;
+
+}
+
+.encabezado span {
+    color: rgba(221, 57, 45, 0.904);
+    padding: 50px;
+}
+
+.contenedor-descarga {
+    background-color: rgba(245, 241, 241, 0.486);
+    border: 0 solid rgb(27, 27, 27);
+    max-width: 450px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: inset 1px 1px 40px rgba(0, 0, 0, 0.685) ;
+}
+
+.contenedor-descarga p {
+    padding: 15px 0 1px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contenedor-descarga span {
+  font-size: .9rem;
+}
+
+
+/* markodenic tool boton ( GENERADOR DE BOTONES CSS ) en google */
+button {
+  min-width: 130px;
+  height: 40px;
+  color: #111010c5;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none;
+  background-color: #049c27b9
+}
+button:hover {
+  border-radius: 10px;
+  padding-right: 24px;
+  padding-left:8px;
+}
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+button:after {
+  content: "\2B07";
+  position: absolute;
+  opacity: 0;
+  font-size: 20px;
+  line-height: 40px;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+footer {
+  background-color: rgba(43, 44, 44, 0.904);
+  color: white;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 1rem;
+  text-align: center;
+  
+}
